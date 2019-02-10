@@ -1,18 +1,20 @@
 # Site settings
-title: *folio
+title: price comstock
 email: you@example.com
 description: > # this means to ignore newlines until "baseurl:"
-  A simple, whitespace, helvetica based portfolio theme.
+  the official blog of price comstock
 baseurl:  # the subpath of your site, e.g. /blog/
 url:  # the base hostname & protocol for your site
-twitter_username: twitter_username
-github_username:  github_username
+twitter_username: price_comstock
+github_username:  pricecomstock
 
 # Build settings
 markdown: kramdown
+plugins: [jekyll-paginate]
 
 highlighter: rouge
 
+# DOCS https://jekyllrb.com/docs/pagination/
 # Pagination
 paginate: 15
 paginate_path: "/blog/page:num/"

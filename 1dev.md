@@ -1,10 +1,12 @@
 ---
 layout: page
-title: portfolio
-permalink: /portfolio/
+title: dev
+permalink: /dev/
 ---
 
 {% for project in site.portfolio %}
+
+{% if project.tags contains "development" %}
 
 {% if project.redirect %}
 <div class="project">
@@ -42,6 +44,7 @@ permalink: /portfolio/
     </div>
 </div>
 
+{% endif %}
 {% endif %}
 
 {% endfor %}

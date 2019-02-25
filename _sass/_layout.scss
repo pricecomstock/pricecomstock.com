@@ -3,8 +3,8 @@
  */
 .site-header {
   // border-bottom: 1px solid $grey-color-light;
-  background-color: $seventiesmoreoffwhite;
-  opacity: 0.75;
+  background-color: $nav-color;
+  // opacity: 0.75;
   position: fixed;
   left: 0px;
   top: 0px;
@@ -55,7 +55,7 @@
   position: relative;
   font-size: 20px;
   display: block;
-  opacity: 0.75;
+  // opacity: 0.75;
   width: 100%;
   text-align: center;
   padding-top: 25px;

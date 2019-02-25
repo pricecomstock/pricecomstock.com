@@ -32,9 +32,9 @@ $lime_green: #B7D12A;
 $purple: #B509AC;
 
 
-$grey-color-dark: #222;   /* footer */
-$grey-color-light: #ddd;  /* navigation bar border */
-$text-color:     #444;
+// $grey-color-dark: #222;   /* footer */
+// $grey-color-light: #ddd;  /* navigation bar border */
+// $text-color:     #444;
 
 /* Set theme color *************************/
 $theme-color:   $seventiesred;
@@ -57,7 +57,7 @@ $seventiescolors: $seventiesred $seventiesorange $seventiesyellow $seventiesgree
 }
 
 .is-hover-dark:hover {
-    color: $grey-color-dark;
+    color: $grey-color-light;
 }
 
 .hover-fade {
@@ -66,7 +66,7 @@ $seventiescolors: $seventiesred $seventiesorange $seventiesyellow $seventiesgree
 
 .rainbow-text {
     animation-name: rainbow;
-    animation-duration: 90s;
+    animation-duration: 45s;
     // animation-delay: 2s;
     animation-iteration-count: infinite;
 }
@@ -174,7 +174,11 @@ a {
     &:hover {
         color: $theme-color;
         text-decoration: none;
-    }
+    };
+
+    // &:visited {
+    //     color: inherit;
+    // }
 }
 
 article a {

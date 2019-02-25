@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /other/
-title: other
+permalink: /idk/
+title: idk
 description: Showcase your writing, short stories, or poems. Replace this text with your description.
 ---
 

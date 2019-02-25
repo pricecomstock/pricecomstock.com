@@ -10,7 +10,7 @@ permalink: /dev/
 
 {% if project.redirect %}
 <div class="project">
-    <div class="thumbnail">
+    <div class="thumbnail blankbox-color-{% cycle 1, 2, 3, 4, 5, 6 %}">
         <a href="{{ project.redirect }}" target="_blank">
         {% if project.img %}
         <img class="thumbnail" src="{{ project.img }}"/>

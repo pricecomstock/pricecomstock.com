@@ -32,13 +32,25 @@ $lime_green: #B7D12A;
 $purple: #B509AC;
 
 
-$grey-color-dark: #333;   /* footer */
+$grey-color-dark: #222;   /* footer */
 $grey-color-light: #ddd;  /* navigation bar border */
-$text-color:     #666;
+$text-color:     #444;
 
 /* Set theme color *************************/
-$theme-color:   $purple;
+$theme-color:   $seventiesred;
 
+// Loop over colors in array to make classes for each of them.
+$seventiescolors: $seventiesred $seventiesorange $seventiesyellow $seventiesgreen $seventiesblue $seventiespurple;
+@each $current-color in $seventiescolors {
+    $i: index($seventiescolors, $current-color);
+    .is-color-#{$i} {
+        color: $current-color;
+    }
+    
+    .is-hover-color-#{$i}:hover {
+        color: $current-color;
+    }
+}
 
 /************************************************************/
 

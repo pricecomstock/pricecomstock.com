@@ -13,9 +13,21 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
+$seventiesblue: #1589b6;
+$seventiespurple: #50328a;
+$seventiesgreen: #a7b866;
+$seventiesyellow: #ffd326;
+$seventiesorange: #ff6e12;
+$seventiesred: #ff1f3c;
+$seventiesblack: #000009;
+$seventiesoffwhite: #fcf1eb;
+$seventiesmoreoffwhite: #fce4d4;
+
+
 $text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+// $background-color: #fdfdfd;
+$background-color: $seventiesmoreoffwhite;
+$brand-color:      $seventiesblue;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);

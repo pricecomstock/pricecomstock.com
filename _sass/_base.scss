@@ -50,6 +50,10 @@ $seventiescolors: $seventiesred $seventiesorange $seventiesyellow $seventiesgree
     .is-hover-color-#{$i}:hover {
         color: $current-color;
     }
+
+    .blankbox-color-#{$i} {
+        background: $current-color;
+    }
 }
 
 .is-hover-dark:hover {

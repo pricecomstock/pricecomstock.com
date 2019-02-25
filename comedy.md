@@ -10,12 +10,12 @@ permalink: /comedy/
 
 {% if project.redirect %}
 <div class="project">
-    <div class="thumbnail">
+    <div class="thumbnail blankbox-color-{% cycle 1, 2, 3, 4, 5, 6 %}">
         <a href="{{ project.redirect }}" target="_blank">
         {% if project.img %}
         <img class="thumbnail" src="{{ project.img }}"/>
         {% else %}
-        <div class="thumbnail blankbox"></div>
+        <div class="thumbnail"></div>
         {% endif %}    
         <span>
             <h1>{{ project.title }}</h1>
@@ -28,12 +28,12 @@ permalink: /comedy/
 {% else %}
 
 <div class="project ">
-    <div class="thumbnail">
+    <div class="thumbnail blankbox-color-{% cycle 1, 2, 3, 4, 5, 6 %}">
         <a href="{{ site.baseurl }}{{ project.url }}">
         {% if project.img %}
         <img class="thumbnail" src="{{ project.img }}"/>
         {% else %}
-        <div class="thumbnail blankbox"></div>
+        <div class="thumbnail"></div>
         {% endif %}    
         <span>
             <h1>{{ project.title }}</h1>

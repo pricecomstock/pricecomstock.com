@@ -16,7 +16,7 @@ highlighter: rouge
 
 # DOCS https://jekyllrb.com/docs/pagination/
 # Pagination
-paginate: 15
+paginate: 13
 paginate_path: "/blog/page:num/"
 
 

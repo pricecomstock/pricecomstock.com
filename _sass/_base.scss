@@ -52,6 +52,14 @@ $seventiescolors: $seventiesred $seventiesorange $seventiesyellow $seventiesgree
     }
 }
 
+.is-hover-dark:hover {
+    color: $grey-color-dark;
+}
+
+.hover-fade {
+    transition: color 0.25s ease-out;
+}
+
 /************************************************************/
 
 /**
@@ -65,6 +73,7 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
 }
 
 

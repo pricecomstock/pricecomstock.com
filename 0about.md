@@ -16,11 +16,11 @@ Link to your social media connections, too. This theme is set up to use <a href=
 <hr/>
 <br/>
 <span class="contacticon center">
-	<a href="mailto:you@example.com"><i class="fa fa-envelope-square"></i></a>
-	<a href="https://github.com" target="_blank"><i class="fa fa-github-square"></i></a>
-	<a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-	<a href="http://tumblr.com" target="_blank"><i class="fa fa-tumblr-square"></i></a>
-	<a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+	<a href="mailto:you@example.com"><i class="fa fa-envelope-square hover-fade is-hover-dark is-color-{% cycle 1, 2, 3, 4, 5, 6 %}"></i></a>
+	<a href="https://github.com" target="_blank"><i class="fa fa-github-square hover-fade is-hover-dark is-color-{% cycle 1, 2, 3, 4, 5, 6 %}"></i></a>
+	<a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square hover-fade is-hover-dark is-color-{% cycle 1, 2, 3, 4, 5, 6 %}"></i></a>
+	<a href="http://tumblr.com" target="_blank"><i class="fa fa-tumblr-square hover-fade is-hover-dark is-color-{% cycle 1, 2, 3, 4, 5, 6 %}"></i></a>
+	<a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square hover-fade is-hover-dark is-color-{% cycle 1, 2, 3, 4, 5, 6 %}"></i></a>
 </span>
 
 <div class="col three caption">

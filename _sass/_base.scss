@@ -60,6 +60,23 @@ $seventiescolors: $seventiesred $seventiesorange $seventiesyellow $seventiesgree
     transition: color 0.25s ease-out;
 }
 
+.rainbow-text {
+    animation-name: rainbow;
+    animation-duration: 90s;
+    // animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+    $length: length($seventiescolors);
+    @each $current-color in $seventiescolors{
+        $i: index($seventiescolors, $current-color);
+        $percent: percentage(($i - 1)/$length);
+        #{$percent} {
+            color: $current-color;
+        }
+    }
+}
 /************************************************************/
 
 /**

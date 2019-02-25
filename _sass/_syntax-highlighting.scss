@@ -2,7 +2,11 @@
  * Syntax highlighting styles
  */
 .highlight {
-    background: #fff;
+    background: $code-background;
+    border-radius: 6px;
+    border-width: 3px;
+    border-color: $seventiespurple;
+    overflow-x: auto;
     @extend %vertical-rhythm;
 
     .c     { color: #998; font-style: italic } // Comment

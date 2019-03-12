@@ -141,8 +141,8 @@
 }
 .post-title {
   font-size: 42px;
-  letter-spacing: -1px;
-  line-height: 1;
+  line-height: 1.1;
+  padding-bottom: 1em;
   @include media-query($on-laptop) {
     font-size: 36px;
   }
@@ -170,6 +170,7 @@
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
+  margin-top: 1.5em;
   margin-bottom: 0px;
 }
 .post-link {

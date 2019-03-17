@@ -16,6 +16,7 @@
 .site-title {
   font-size: 20px;
   line-height: $nav-height;
+  font-weight: 700;
   letter-spacing: -1px;
   margin-bottom: 0;
   &:hover {
@@ -27,6 +28,7 @@
   font-size: 1.2rem;
   float: right;
   line-height: $nav-height;
+  font-weight: 700;
   .page-link {
     line-height: $base-line-height;
     // Gaps between nav items, but not on the first one

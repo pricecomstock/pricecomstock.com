@@ -151,19 +151,25 @@
 }
 .post-content {
   h2 {
-    font-size: 42px;
+    font-size: 40px;
+    padding-top: 1em;
+    padding-bottom: 0.75em;
     @include media-query($on-laptop) {
       font-size: 28px;
     }
   }
   h3 {
     font-size: 30px;
+    padding-top: 1em;
+    padding-bottom: 0.75em;
     @include media-query($on-laptop) {
       font-size: 22px;
     }
   }
   h4 {
-    font-size: 20px;
+    font-size: 22px;
+    padding-top: 1em;
+    padding-bottom: 0.75em;
     @include media-query($on-laptop) {
       font-size: 18px;
     }
@@ -283,4 +289,5 @@
   text-align: center;
   vertical-align: middle;
   font-size: $caption_font_size;
+  margin-bottom: 16px;
 }

@@ -22,13 +22,15 @@ $seventiesblack: #000009;
 $seventiesoffwhite: #fcf1eb;
 $seventiesmoreoffwhite: #fce4d4;
 
+$grey-color-darkest: #0f1213;
+
 $grey-color:       #888;
 $grey-color-dark: #222; 
 $grey-color-light: #ddd;
 
 // $background-color: #fdfdfd;
-$background-color: $seventiesblack;
-$nav-color:        $seventiesblack;
+$background-color: $grey-color-darkest;
+$nav-color:        $grey-color-darkest;
 $text-color:       $grey-color-light;
 $brand-color:      $seventiesblue;
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Project
-description: a project with a background image
+title: inspopaper
+description: inspirational wallpapers bot-made from slack messages
 img: /img/2.jpg
-tags: [comedy]
+tags: [development]
 ---
 
 Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.

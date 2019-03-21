@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  live audience voting
+title:  live audience voting comedy show
 date:   2019-03-17 12:00:00
-description: A description of the first show with our live audience voting system
+description: a rundown of our first test kitchen show using the live audience voting system
 ---
 I made a [voting system]({% link _portfolio/1_liveaudiencevoting.markdown %}) designed to let an audience use their smartphones to vote live during a show. I wanted to make it very visible and fun for everyone in the room, so I made a live, physics-based bubble chart where each audience member is represented by an emoji, which moves to different areas as they change their vote.
 

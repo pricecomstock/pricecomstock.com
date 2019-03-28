@@ -2,7 +2,7 @@
 layout: page
 permalink: /idk/
 title: idk
-description: not poems
+description: i carefully consider merits to create unbiased reviews that you can count on
 ---
 
 <ul class="post-list">

@@ -6,7 +6,9 @@ description: a rundown of our first test kitchen show using the live audience vo
 ---
 I made a [voting system]({% link _portfolio/1_liveaudiencevoting.markdown %}) designed to let an audience use their smartphones to vote live during a show. I wanted to make it very visible and fun for everyone in the room, so I made a live, physics-based bubble chart where each audience member is represented by an emoji, which moves to different areas as they change their vote.
 
-TODO add video/gif
+<video width="100%" controls autoplay>
+<source src="{{ site.baseurl }}/img/2019/voting/voting-demo.mp4" type="video/mp4">
+</video>
 
 Anyways, it's easy to see in real time, and is especially fun when you can instantly see the votes changing in reaction to some event. So far, we've used it for a few different shows, all in the Test Kitchen this was built for:
 
@@ -21,7 +23,7 @@ We had pairs of performers come up and each tell a dad joke and the audience vot
 * Then the second person would go and people would groan at their joke and some votes would go back to the first person.
 
 ### Live Debate
-<img class="col three" src="{{ site.baseurl }}/img/voting.jpg" alt="live debate"/>
+<img class="col three" src="{{ site.baseurl }}/img/2019/voting/voting.jpg" alt="live debate"/>
 <div class="col three caption">
 	Ronald Gump (Dan Vaughn) versus Herschel Sturgis (Toby Gastler)
 </div>

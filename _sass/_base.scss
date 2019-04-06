@@ -62,6 +62,11 @@ $seventiescolors: $seventiesred $seventiesorange $seventiesyellow $seventiesgree
     animation-iteration-count: infinite;
 }
 
+.site-subheader {
+    padding-top: 0.5em;
+    color: $grey-color;
+}
+
 @keyframes rainbow {
     $length: length($seventiescolors);
     @each $current-color in $seventiescolors{

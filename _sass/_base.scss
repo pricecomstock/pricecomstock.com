@@ -172,7 +172,7 @@ a {
     }
     */
     &:hover {
-        color: $theme-color;
+        color: $seventiesorange;
         text-decoration: none;
     };
 
@@ -182,10 +182,12 @@ a {
 }
 
 article a {
-    color: $theme-color;
+    color: $seventiesyellow;
     font-weight: 100;
+    transition: color 0.1s;
 
     &:hover {
+        color: $seventiesorange;
         text-decoration: none;
     }
 }

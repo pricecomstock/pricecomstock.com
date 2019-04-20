@@ -6,7 +6,10 @@ description: using grammars and tracery.io for more specific generation
 tags: [pptxgen]
 ---
 
-I watched a few [GDC talks about procedural generation](https://www.youtube.com/watch?v=WumyfLEa6bU) and become especially interested in grammar-based procedural generation. Grammar-based generation uses templates to fill in placeholders with randomly chosen content, and is recursive, so that content can itself be another template with placeholders. That's my best shot at defining it, and you can either try to decipher that or just look at the examples below which i think should make things pretty clear.
+I watched a few [GDC talks about procedural generation](https://www.youtube.com/watch?v=WumyfLEa6bU) and become especially interested in grammar-based procedural generation. Grammar-based generation uses templates to fill in placeholders with randomly chosen content, and is recursive, so that content can itself be another template with placeholders. That's my best shot at defining it, and you can either try to decipher that or just look at the examples below which I think should make things pretty clear.
+
+
+<img class="fullimg" src="/img/2019/pptx-about-me-slide-samples/2019-04-20-132055_990x551_scrot.png">
 
 ### Procedural Text Generation for Powerpoint Generator
 I'm using two main resources to create strings for [PowerPoint Generator](https://pptx.pc.codes/). First, there is a wonderful program by Kate Compton called [Tracery](http://tracery.io/). Tracery is used to generate and run text-based grammars, although it can also be used to generate HTML and other markup languages that go beyond just simple text. I also found a dataset called [Corpora](https://github.com/dariusk/corpora) that is simply a large (and CC0) collection of categorized word and phrase lists.
@@ -177,7 +180,6 @@ Finally, here are a few examples of completed slides:
 <img class="fullimg" src="/img/2019/pptx-about-me-slide-samples/2019-04-20-131741_986x551_scrot.png">
 <img class="fullimg" src="/img/2019/pptx-about-me-slide-samples/2019-04-20-131916_981x550_scrot.png">
 <img class="fullimg" src="/img/2019/pptx-about-me-slide-samples/2019-04-20-132008_985x550_scrot.png">
-<img class="fullimg" src="/img/2019/pptx-about-me-slide-samples/2019-04-20-132055_990x551_scrot.png">
 
 ## Go try it!
 You can generate your own slideshows at [forgotmyslides.xyz](https://forgotmyslides.xyz)

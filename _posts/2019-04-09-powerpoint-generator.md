@@ -3,6 +3,7 @@ layout: post
 title:  how to generate powerpoint presentations the "easy" way
 date:   2019-04-09 12:00:00
 description: ok, turns out it wasn't that easy but I could have made it a lot harder for myself by using powerpoint
+tags: [pptxgen]
 ---
 A couple of years ago, I was invited to present at a panel at an anime convention. My topic was the *very exciting* [War of 1812.](https://en.wikipedia.org/wiki/War_of_1812)
 
@@ -52,38 +53,6 @@ I also found some sources that didn't really work.
 
 #### That's a lot of API requests
 Yes it is, and that's why I sat down and actually learned Javascript promises and async/await for this one. I'm pleased to report its speed is _reasonable_ and its performance only degrades _very badly_ if Reddit or Wikipedia go down. I would like to fix this.
-
-#### More detailed procedural generation
-I watched a few GDC talks about procedural generation and found out about a program called [Tracery](http://tracery.io/) used to generate grammars for procedural generation. Using this and a dataset called [Corpora](https://github.com/dariusk/corpora) that is lists of different types of words, I have started to [rework some of the text generation](https://github.com/pricecomstock/pptxgen/blob/master/slidegen/sources/grammar/grammar.js), especially on the "about me" slide. One example I'm proud of is the "nickname" bullet type, which results in statements like 
-* given the nickname "The Mayoress of Textiles"
-
-Here's the relevant high-level portions of the grammar.
-
-{% highlight javascript %}
-{
-  nickname: [
-    "#honorific# #field.capitalizeAll#",
-    "#honorific# #mood.capitalizeAll#",
-    "#honorific# #iabCategory#"
-  ],
-  nicknameStatement: [
-    'you can call me "#nickname#"',
-    'I\'ve been called "#nickname#"',
-    'given the nickname "#nickname#"'
-  ],
-  aboutMe: [
-    "#expertStatement#",
-    "#qualification#",
-    "#funFact#",
-    "#origin#",
-    "#nicknameStatement#"
-  ]
-}
-{% endhighlight %}
-
-#### The Future
-The grammar-based generation is generally better than the Reddit and Wikipedia generation, so I would like to implement more of it. I think for slides less specialized than the "About Me" slide, a mix of both will be good.
-
 
 ## TL;DR
 PowerPoint Karaoke is fun but also sort of sucks so I tried to increase the fun-to-effort ratio by creating my own generator.

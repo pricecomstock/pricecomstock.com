@@ -170,14 +170,14 @@ This one honestly isn't that exciting, but it adds some flavor while being less 
 
 ## The whole slide
 Finally, here are a few examples of completed slides:
-<img class="fullimg" src="/img/2019/pptx-slide-samples/2019-04-20-131401_988x552_scrot.png">
-<img class="fullimg" src="/img/2019/pptx-slide-samples/2019-04-20-131448_985x552_scrot.png">
-<img class="fullimg" src="/img/2019/pptx-slide-samples/2019-04-20-131516_986x548_scrot.png">
-<img class="fullimg" src="/img/2019/pptx-slide-samples/2019-04-20-131655_988x553_scrot.png">
-<img class="fullimg" src="/img/2019/pptx-slide-samples/2019-04-20-131741_986x551_scrot.png">
-<img class="fullimg" src="/img/2019/pptx-slide-samples/2019-04-20-131916_981x550_scrot.png">
-<img class="fullimg" src="/img/2019/pptx-slide-samples/2019-04-20-132008_985x550_scrot.png">
-<img class="fullimg" src="/img/2019/pptx-slide-samples/2019-04-20-132055_990x551_scrot.png">
+<img class="fullimg" src="/img/2019/pptx-about-me-slide-samples/2019-04-20-131401_988x552_scrot.png">
+<img class="fullimg" src="/img/2019/pptx-about-me-slide-samples/2019-04-20-131448_985x552_scrot.png">
+<img class="fullimg" src="/img/2019/pptx-about-me-slide-samples/2019-04-20-131516_986x548_scrot.png">
+<img class="fullimg" src="/img/2019/pptx-about-me-slide-samples/2019-04-20-131655_988x553_scrot.png">
+<img class="fullimg" src="/img/2019/pptx-about-me-slide-samples/2019-04-20-131741_986x551_scrot.png">
+<img class="fullimg" src="/img/2019/pptx-about-me-slide-samples/2019-04-20-131916_981x550_scrot.png">
+<img class="fullimg" src="/img/2019/pptx-about-me-slide-samples/2019-04-20-132008_985x550_scrot.png">
+<img class="fullimg" src="/img/2019/pptx-about-me-slide-samples/2019-04-20-132055_990x551_scrot.png">
 
 ## Go try it!
 You can generate your own slideshows at [forgotmyslides.xyz](https://forgotmyslides.xyz)

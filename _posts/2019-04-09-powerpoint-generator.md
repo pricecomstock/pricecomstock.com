@@ -15,6 +15,10 @@ It was pretty fun, but I felt like there were a couple of issues. The big one is
 
 So, I made a [Random PowerPoint Generator](https://pptx.pc.codes) for debut at another PowerPoint Karaoke style show at [Test Kitchen]({% link _portfolio/9_testkitchen.markdown %}).
 
+<img class="fullimg" src="/img/2019/pptx-v1-slide-samples/2019-04-20-133756_1028x423_scrot.png">
+<div class="col three caption">
+  You can be ready for your next presentation with this little effort!
+</div>
 ## How to display random slides
 When I started this project, I was pretty unsure of how I wanted to present the slides.
 
@@ -27,6 +31,11 @@ I looked into a [few](https://github.com/zulko/eagle.js/) [frameworks](https://g
 
 Finally, I realized for the subset of presentation features I actually needed, it wouldn't be tough to just, you know, write a few basic slide types in HTML and use JavaScript* to render HTML based on a JSON schema of the presentation.
 
+<img class="fullimg" src="/img/2019/pptx-v1-slide-samples/2019-04-20-133215_988x554_scrot.png">
+<div class="col three caption">
+  Turns out HTML and CSS are pretty good for laying out text and images.
+</div>
+
 #### My "custom" JavaScript* "presentation" "framework"
 _Okay_, I said "JavaScript" and that's technically true, but I used [Vue.js](https://vuejs.org/) because I have a boilerplate website created in it and it makes development easier, even if it's overkill for some projects. (can u tell i read hacker news comments and feel bad about my liberal use of SPAs?)
 
@@ -34,7 +43,16 @@ Anyways, I came up with a few different types of slides and created a component 
 
 The Presentation component keeps track of the current slide index and displays the slide at that index, with a little extra magic to preload all images in the presentation and keep the Slide components around in case the presenter goes back a slide.
 
-Unfortunately, it happened after the initial run, but I also went back and added support for random slide textures and color gradients with a settings object in the Presentation object.
+Unfortunately, it happened after the initial show, but I also went back and added support for random slide textures and color gradients with a settings object in the Presentation object.
+
+<img class="fullimg" src="/img/2019/pptx-v1-slide-samples/2019-04-20-133145_991x550_scrot.png">
+<div class="col three caption">
+  A pretty theme.
+</div>
+<img class="fullimg" src="/img/2019/pptx-v1-slide-samples/2019-04-20-133339_990x550_scrot.png">
+<div class="col three caption">
+  A very pretty theme.
+</div>
 
 ## How to make random slides sort of good
 With the frontend ready to display whatever the JSON told it to, I could start generating slides. I wanted a pretty wide variety of text and images and ended up finding a variety of useful sources:
@@ -54,6 +72,15 @@ I also found some sources that didn't really work.
 #### That's a lot of API requests
 Yes it is, and that's why I sat down and actually learned Javascript promises and async/await for this one. I'm pleased to report its speed is _reasonable_ and its performance only degrades _very badly_ if Reddit or Wikipedia go down. I would like to fix this.
 
+<img class="fullimg" src="/img/2019/pptx-v1-slide-samples/2019-04-20-133308_989x552_scrot.png">
+<div class="col three caption">
+  A title slide for a topic I'm extremely qualified to speak about
+</div>
+<img class="fullimg" src="/img/2019/pptx-v1-slide-samples/2019-04-20-133118_988x550_scrot.png">
+<div class="col three caption">
+  Wonder if that's a jeopardy answer or a first date question?
+</div>
+
 ## TL;DR
 PowerPoint Karaoke is fun but also sort of sucks so I tried to increase the fun-to-effort ratio by creating my own generator.
 
@@ -68,3 +95,5 @@ PowerPoint Karaoke is fun but also sort of sucks so I tried to increase the fun-
 * harder to guarantee safe-for-work content
 * internet connectivity required
 * slide layouts are not pixel-perfect or really even fairly-consistent from device to device
+
+<img class="fullimg" src="/img/2019/pptx-v1-slide-samples/2019-04-20-133402_988x552_scrot.png">

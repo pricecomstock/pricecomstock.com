@@ -38,6 +38,6 @@ When I created this, I wanted to learn serverless. I would now say Inspopaper is
 ## Future Improvements
 I can think of a few tweaks that could make it better:
 * Offering a few wallpaper choices instead of just picking one
-* A more controlled wallpaper source, although the random anime ones are part of the fun
+* A more controlled wallpaper source, although the random anime/low-res/not-very-aesthetically-pleasing ones are part of the fun
 <img class="fullimg" src="/img/2019/wallpaper-samples/starcraft.jpeg">
 * More fonts and formats. For example, the type of inspirational photo with much larger text covering the middle of it.

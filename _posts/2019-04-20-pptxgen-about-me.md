@@ -6,7 +6,7 @@ description: using grammars and tracery.io for more specific generation
 tags: [pptxgen]
 ---
 
-I watched a few [GDC talks about procedural generation](https://www.youtube.com/watch?v=WumyfLEa6bU) and become especially interested in grammar-based procedural generation. Grammar-based generation uses templates to fill in placeholders with randomly chosen content, and is recursive, so that content can itself be another template with placeholders. That's my best shot at defining it, and you can either try to decipher that or just look at the examples below which I think should make things pretty clear.
+I watched a few [GDC talks about procedural generation](https://www.youtube.com/watch?v=WumyfLEa6bU) and became especially interested in grammar-based procedural generation. Grammar-based generation uses templates to fill in placeholders with randomly chosen content. It is recursive, so any templates can be used as a placeholder in another template. That's my best shot at defining it, and you can either try to decipher that or just look at the examples below which I think should make things pretty clear.
 
 
 <img class="fullimg" src="/img/2019/pptx-about-me-slide-samples/2019-04-20-132055_990x551_scrot.png">
